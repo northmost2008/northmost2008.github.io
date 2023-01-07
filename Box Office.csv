@@ -23,9 +23,9 @@ Bahrain,2019,4249137
 Bahrain,2020,2606653
 Bahrain,2021,29277
 Bahrain,2022,94309
-Bangladesh,2019,
+Bangladesh,2019,0
 Bangladesh,2020,1678
-Bangladesh,2021,
+Bangladesh,2021,0
 Bangladesh,2022,54566
 Belgium,2019,114025487
 Belgium,2020,22951443
@@ -43,9 +43,9 @@ Bulgaria,2019,22752281
 Bulgaria,2020,4127248
 Bulgaria,2021,12213376
 Bulgaria,2022,27121313
-Cambodia,2019,
+Cambodia,2019,0
 Cambodia,2020,30924
-Cambodia,2021,
+Cambodia,2021,0
 Cambodia,2022,66088
 Chile,2019,100430669
 Chile,2020,9894541
@@ -67,7 +67,7 @@ Croatia,2019,24426098
 Croatia,2020,6808501
 Croatia,2021,12539842
 Croatia,2022,16790732
-Cura?ao,2019,
+Cura?ao,2019,0
 Cura?ao,2020,8220
 Cura?ao,2021,370
 Cura?ao,2022,2926
@@ -95,7 +95,7 @@ Egypt,2019,9135159
 Egypt,2020,3370883
 Egypt,2021,2674239
 Egypt,2022,1822693
-El Salvador,2019,
+El Salvador,2019,0
 El Salvador,2020,1610
 El Salvador,2021,9243
 El Salvador,2022,33698
@@ -103,9 +103,9 @@ Estonia,2019,5671958
 Estonia,2020,2064465
 Estonia,2021,440175
 Estonia,2022,2012156
-Ethiopia,2019,
+Ethiopia,2019,0
 Ethiopia,2020,6134
-Ethiopia,2021,
+Ethiopia,2021,0
 Ethiopia,2022,3302
 Finland,2019,50209633
 Finland,2020,13494061
@@ -120,15 +120,15 @@ Germany,2020,259018733
 Germany,2021,325520137
 Germany,2022,584481163
 Ghana,2019,93514
-Ghana,2020,
-Ghana,2021,
-Ghana,2022,
+Ghana,2020,0
+Ghana,2021,0
+Ghana,2022,0
 Greece,2019,38536221
 Greece,2020,5769711
 Greece,2021,1165977
 Greece,2022,4697107
-Guatemala,2019,
-Guatemala,2020,
+Guatemala,2019,0
+Guatemala,2020,0
 Guatemala,2021,11485
 Guatemala,2022,49772
 Honduras,2019,445100
@@ -151,7 +151,7 @@ India,2019,392237047
 India,2020,63008784
 India,2021,122734782
 India,2022,667258711
-Iraq,2019,
+Iraq,2019,0
 Iraq,2020,24333
 Iraq,2021,48439
 Iraq,2022,14879
@@ -165,8 +165,8 @@ Italy,2021,164103924
 Italy,2022,284299028
 Jamaica,2019,848424
 Jamaica,2020,712015
-Jamaica,2021,
-Jamaica,2022,
+Jamaica,2021,0
+Jamaica,2022,0
 Japan,2019,1663451422
 Japan,2020,979651368
 Japan,2021,896863243
@@ -177,16 +177,16 @@ Jordan,2021,210994
 Jordan,2022,68233
 Kenya,2019,788316
 Kenya,2020,390651
-Kenya,2021,
+Kenya,2021,0
 Kenya,2022,134481
 Kuwait,2019,8915350
 Kuwait,2020,4760816
 Kuwait,2021,1664431
 Kuwait,2022,333935
-Lao People's Democratic Republic,2019,
+Lao People's Democratic Republic,2019,0
 Lao People's Democratic Republic,2020,3471
-Lao People's Democratic Republic,2021,
-Lao People's Democratic Republic,2022,
+Lao People's Democratic Republic,2021,0
+Lao People's Democratic Republic,2022,0
 Latvia,2019,4399768
 Latvia,2020,1003512
 Latvia,2021,138900
@@ -225,9 +225,9 @@ Nicaragua,2021,5240
 Nicaragua,2022,19142
 Nigeria,2019,2408387
 Nigeria,2020,706551
-Nigeria,2021,
+Nigeria,2021,0
 Nigeria,2022,363641
-North Macedonia,2019,
+North Macedonia,2019,0
 North Macedonia,2020,630
 North Macedonia,2021,97
 North Macedonia,2022,117413
@@ -243,9 +243,9 @@ Pakistan,2019,3248913
 Pakistan,2020,856171
 Pakistan,2021,2671
 Pakistan,2022,331315
-"Palestine, State of",2019,
-"Palestine, State of",2020,
-"Palestine, State of",2021,
+"Palestine, State of",2019,0
+"Palestine, State of",2020,0
+"Palestine, State of",2021,0
 "Palestine, State of",2022,2399
 Panama,2019,2971822
 Panama,2020,64773
@@ -271,9 +271,9 @@ Portugal,2019,88668206
 Portugal,2020,21274650
 Portugal,2021,33043679
 Portugal,2022,51969994
-Puerto Rico,2019,
-Puerto Rico,2020,
-Puerto Rico,2021,
+Puerto Rico,2019,0
+Puerto Rico,2020,0
+Puerto Rico,2021,0
 Puerto Rico,2022,53257
 Qatar,2019,5429467
 Qatar,2020,2445349
@@ -287,7 +287,7 @@ Russian Federation,2019,874858957
 Russian Federation,2020,251087538
 Russian Federation,2021,438062791
 Russian Federation,2022,353305937
-Saudi Arabia,2019,
+Saudi Arabia,2019,0
 Saudi Arabia,2020,7944158
 Saudi Arabia,2021,26678108
 Saudi Arabia,2022,49022168
@@ -343,10 +343,10 @@ Trinidad and Tobago,2019,5340297
 Trinidad and Tobago,2020,1772853
 Trinidad and Tobago,2021,8631
 Trinidad and Tobago,2022,1305756
-TÂ¨Â¹rkiye,2019,158828872
-TÂ¨Â¹rkiye,2020,37670024
-TÂ¨Â¹rkiye,2021,17323833
-TÂ¨Â¹rkiye,2022,71008148
+T¨¹rkiye,2019,158828872
+T¨¹rkiye,2020,37670024
+T¨¹rkiye,2021,17323833
+T¨¹rkiye,2022,71008148
 Ukraine,2019,105690908
 Ukraine,2020,31698712
 Ukraine,2021,48263076
