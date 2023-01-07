@@ -1,4 +1,16 @@
 NAME,YEAR,Yearly box office in USD$
+Angola,2019,0
+Angola,2020,0
+Angola,2021,0
+Angola,2022,0
+Antarctica,2019,0
+Antarctica,2020,0
+Antarctica,2021,0
+Antarctica,2022,0
+Afghanistan,2019,0
+Afghanistan,2020,0
+Afghanistan,2021,0
+Afghanistan,2022,0
 Albania,2019,42165
 Albania,2020,3127
 Albania,2021,516
@@ -75,10 +87,10 @@ Cyprus,2019,1075216
 Cyprus,2020,225735
 Cyprus,2021,71215
 Cyprus,2022,406111
-Czechia,2019,87866883
-Czechia,2020,35418671
-Czechia,2021,40495676
-Czechia,2022,77328402
+Czech Republic,2019,87866883
+Czech Republic,2020,35418671
+Czech Republic,2021,40495676
+Czech Republic,2022,77328402
 Denmark,2019,83034981
 Denmark,2020,19211675
 Denmark,2021,11386371
@@ -183,10 +195,10 @@ Kuwait,2019,8915350
 Kuwait,2020,4760816
 Kuwait,2021,1664431
 Kuwait,2022,333935
-Lao People's Democratic Republic,2019,0
-Lao People's Democratic Republic,2020,3471
-Lao People's Democratic Republic,2021,0
-Lao People's Democratic Republic,2022,0
+Laos,2019,0
+Laos,2020,3471
+Laos,2021,0
+Laos,2022,0
 Latvia,2019,4399768
 Latvia,2020,1003512
 Latvia,2021,138900
@@ -283,18 +295,18 @@ Romania,2019,57526262
 Romania,2020,13925397
 Romania,2021,22955478
 Romania,2022,50142685
-Russian Federation,2019,874858957
-Russian Federation,2020,251087538
-Russian Federation,2021,438062791
-Russian Federation,2022,353305937
+Russia,2019,874858957
+Russia,2020,251087538
+Russia,2021,438062791
+Russia,2022,353305937
 Saudi Arabia,2019,0
 Saudi Arabia,2020,7944158
 Saudi Arabia,2021,26678108
 Saudi Arabia,2022,49022168
-Serbia,2019,10038692
-Serbia,2020,2352719
-Serbia,2021,9126902
-Serbia,2022,13330407
+Republic of Serbia,2019,10038692
+Republic of Serbia,2020,2352719
+Republic of Serbia,2021,9126902
+Republic of Serbia,2022,13330407
 Singapore,2019,84833249
 Singapore,2020,9127296
 Singapore,2021,21445600
@@ -311,10 +323,10 @@ South Africa,2019,96320981
 South Africa,2020,15044606
 South Africa,2021,18794346
 South Africa,2022,39540992
-"Korea, Republic of",2019,96320981
-"Korea, Republic of",2020,15044606
-"Korea, Republic of",2021,18794346
-"Korea, Republic of",2022,39540992
+South Korea,2019,96320981
+South Korea,2020,15044606
+South Korea,2021,18794346
+South Korea,2022,39540992
 Spain,2019,660472620
 Spain,2020,115106704
 Spain,2021,205983912
@@ -331,10 +343,10 @@ Switzerland,2019,97601858
 Switzerland,2020,18795954
 Switzerland,2021,15370857
 Switzerland,2022,46823898
-"Taiwan, Province of China",2019,161695427
-"Taiwan, Province of China",2020,36361841
-"Taiwan, Province of China",2021,45960071
-"Taiwan, Province of China",2022,70506022
+Taiwan,2019,161695427
+Taiwan,2020,36361841
+Taiwan,2021,45960071
+Taiwan,2022,70506022
 Thailand,2019,112168555
 Thailand,2020,15077489
 Thailand,2021,12098814
@@ -343,10 +355,10 @@ Trinidad and Tobago,2019,5340297
 Trinidad and Tobago,2020,1772853
 Trinidad and Tobago,2021,8631
 Trinidad and Tobago,2022,1305756
-T¨¹rkiye,2019,158828872
-T¨¹rkiye,2020,37670024
-T¨¹rkiye,2021,17323833
-T¨¹rkiye,2022,71008148
+Turkey,2019,158828872
+Turkey,2020,37670024
+Turkey,2021,17323833
+Turkey,2022,71008148
 Ukraine,2019,105690908
 Ukraine,2020,31698712
 Ukraine,2021,48263076
@@ -355,10 +367,10 @@ United Arab Emirates,2019,190808101
 United Arab Emirates,2020,47546679
 United Arab Emirates,2021,97887517
 United Arab Emirates,2022,149007431
-United Kingdom of Great Britain and Northern Ireland,2019,1612264840
-United Kingdom of Great Britain and Northern Ireland,2020,406389115
-United Kingdom of Great Britain and Northern Ireland,2021,711907628
-United Kingdom of Great Britain and Northern Ireland,2022,1127728259
+United Kingdom,2019,1612264840
+United Kingdom,2020,406389115
+United Kingdom,2021,711907628
+United Kingdom,2022,1127728259
 United States of America,2019,10227028316
 United States of America,2020,1902462120
 United States of America,2021,4034516278
@@ -367,15 +379,55 @@ Uruguay,2019,14955195
 Uruguay,2020,1760900
 Uruguay,2021,125905
 Uruguay,2022,1932409
-Venezuela (Bolivarian Republic of),2019,9121554
-Venezuela (Bolivarian Republic of),2020,164974
-Venezuela (Bolivarian Republic of),2021,793014
-Venezuela (Bolivarian Republic of),2022,759630
-Viet Nam,2019,126698366
-Viet Nam,2020,60768615
-Viet Nam,2021,46239898
-Viet Nam,2022,114963481
+Venezuela,2019,9121554
+Venezuela,2020,164974
+Venezuela,2021,793014
+Venezuela,2022,759630
+Vietnam,2019,126698366
+Vietnam,2020,60768615
+Vietnam,2021,46239898
+Vietnam,2022,114963481
 Canada,2019,1136336480
 Canada,2020,211384680
 Canada,2021,448279586
 Canada,2022,736781558
+Zimbabwe,2019,0
+Zimbabwe,2020,0
+Zimbabwe,2021,0
+Zimbabwe,2022,0
+Sudan,2019,0
+Sudan,2020,0
+Sudan,2021,0
+Sudan,2022,0
+Algeria,2019,0
+Algeria,2020,0
+Algeria,2021,0
+Algeria,2022,0
+Indonesia,2019,0
+Indonesia,2020,0
+Indonesia,2021,0
+Indonesia,2022,0
+Niger,2019,0
+Niger,2020,0
+Niger,2021,0
+Niger,2022,0
+Chad,2019,0
+Chad,2020,0
+Chad,2021,0
+Chad,2022,0
+Libya,2019,0
+Libya,2020,0
+Libya,2021,0
+Libya,2022,0
+Mauritania,2019,0
+Mauritania,2020,0
+Mauritania,2021,0
+Mauritania,2022,0
+Democratic Republic of the Congo,2019,0
+Democratic Republic of the Congo,2020,0
+Democratic Republic of the Congo,2021,0
+Democratic Republic of the Congo,2022,0
+Yemen,2019,0
+Yemen,2020,0
+Yemen,2021,0
+Yemen,2022,0
