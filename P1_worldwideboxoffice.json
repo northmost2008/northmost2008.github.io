@@ -1,0 +1,74 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "",
+    "title": {
+      "text": ["Worldwide Box Office"],
+      "subtitle": "",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "middle",
+      "color": "black"
+    },
+   "view": {"fill":"whitesmoke"},
+   "config": {
+      "background":"yellow",
+      "view": {"stroke": "trasparent"}},
+  
+  
+  
+  
+    "width": 600,
+    "height": 300,
+    "background": "white",
+     "data": {
+      "url": "https://raw.githubusercontent.com/northmost2008/northmost2008.github.io/main/P1_BoxOffice.csv"
+    },
+    "transform": [
+      {
+        "lookup": "NAME",
+        "from": {
+  
+          "data": {
+            "url": "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries-sans-antarctica.json",
+            "format": {"type": "topojson", "feature": "countries1"}
+          },
+           "key": "properties.name",
+          "fields": ["properties", "type", "geometry"]
+        }
+      },
+      {"filter": "datum.YEAR==yearSelector"}
+      
+    
+    ],
+   "params": [
+      {
+        "name": "yearSelector",
+        "value": 2019,
+        "bind": {
+          "input": "range",
+          "min": 2019,
+          "max": 2022,
+          "step": 1,
+          "name": "Year:"
+        }
+      }
+    ],
+    "projection": {"type": "equalEarth"},
+      "mark": {
+        "type": "geoshape",
+        
+        "stroke": "rgb(50, 50, 50)",
+        "strokeWidth":0.3},
+  
+    "encoding": { 
+      "color": {
+        "field": "Yearly box office in USD$", "type": "quantitative",
+        "scale": {"scheme": "spectral"}
+        
+        },
+      "tooltip": [
+        {"field": "properties.name", "type": "nominal", "title": "Country"},
+        {"field": "Yearly box office in USD$", "type": "quantitative"}
+      ]
+    }
+  }

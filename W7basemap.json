@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "",
+  "title": {
+    "text": ["World Map"],
+    "subtitle": "With tooltip (Country Names)",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
+  },
+ "view": {"fill":"steelblue"},
+ "config": {
+    "background":"yellow",
+    "view": {"stroke": "trasparent"}},
+
+
+
+
+  "width": 560,
+  "height": 300,
+  "background": "white",
+   
+
+        "data": {
+          "url": "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries-sans-antarctica.json",
+          "format": {"type": "topojson", "feature": "countries1"}
+        },
+
+  "projection": {"type": "equalEarth"},
+    "mark": {
+      "type": "geoshape",
+      "fill": "rgb(190, 190, 190)",
+      "stroke": "rgb(50, 50, 50)",
+      "strokeWidth":0.3},
+
+  "encoding": {
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "Country"}
+    ]
+  }
+}

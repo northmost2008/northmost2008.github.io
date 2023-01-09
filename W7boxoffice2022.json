@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "",
+  "title": {
+    "text": ["International Box office in 2022"],
+    "subtitle": "",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
+  },
+ "view": {"fill":"whitesmoke"},
+ "config": {
+    "background":"yellow",
+    "view": {"stroke": "#ffffff38"}},
+
+
+
+
+  "width": 500,
+  "height": 326,
+  "background": "white",
+   "data": {
+    "url": "https://raw.githubusercontent.com/northmost2008/northmost2008.github.io/main/P1_BoxOffice.csv"
+  },
+  "transform": [
+    {
+      "lookup": "NAME",
+      "from": {
+
+        "data": {
+          "url": "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries-sans-antarctica.json",
+          "format": {"type": "topojson", "feature": "countries1"}
+        },
+         "key": "properties.name",
+        "fields": ["properties", "type", "geometry"]
+      }
+    }
+    
+  
+  ],
+ 
+  "projection": {"type": "equalEarth"},
+    "mark": {
+      "type": "geoshape",
+      "fisll": "rgb(190, 190, 190)",
+      "stroke": "rgb(50, 50, 50)",
+      "strokeWidth":0.5},
+
+  "encoding": { 
+    "color": {
+      "field": "Yearly box office in USD$", 
+      "type": "quantitative",
+      "scale": {"scheme": "spectral","domain": [5000, 6500000000]}
+      
+      },
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "Country"},
+      {"field": "Yearly box office in USD$", "type": "quantitative"}
+    ]
+  }
+}

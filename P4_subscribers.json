@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": [
+      "Correlation between the number of Netflix subscribers",
+      "and the box office in 45 countries"
+    ],
+    "subtitle": [
+    
+      "Source: Comparitech",
+      "Year: 2021"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/northmost2008/northmost2008.github.io/main/P4_netflixsubscribers.csv"
+  },
+  "height": 300,
+  "width": 300,
+  "layer": [
+    {
+      "mark": {"type": "point", "filled": true, "size": 80},
+      "encoding": {
+        "x": {"field": "Box office in 2021", "type": "quantitative"},
+        "y": {
+          "field": "number of Netflix Subscribers",
+          "type": "quantitative",
+          "scale": {"domain": [49000, 18500000]}
+        },
+        "tooltip": [{"field": "Country", "type": "nominal", "title": "Country"},
+          {"field": "Box office in 2021", "type": "quantitative", "title": "Box office in 2021, $"},
+          {"field": "number of Netflix Subscribers", "type": "quantitative", "title": "number of subscribers"},
+          {"field": "Country", "type": "nominal", "title": "Country"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "darkorange"},
+      "transform": [
+        {"regression": "Box office in 2021", "on": "number of Netflix Subscribers","extent": [100000, 20000000]}
+      ],
+      "encoding": {
+        "x": {"field": "Box office in 2021", "type": "quantitative"},
+        "y": {"field": "number of Netflix Subscribers", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Box office in 2021",
+          "on": "number of Netflix Subscribers",
+          "params": true,
+          "method": "poly"
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -10
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
+    }
+  ]
+}

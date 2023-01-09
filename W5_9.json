@@ -1,0 +1,37 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/northmost2008/northmost2008.github.io/main/data_ONS-RURC.json",
+      "format": {"type": "json", "property": "years"}
+      
+    },
+    "title": {
+      "text": "Income tax",
+      "fontSize": 14,
+      "subtitle": "£ million, Data source: ONS (2022)",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "width": 170,
+    "height": 170,
+    "mark": {
+      "type": "line",
+      "color": "#5fc2a1"},
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "temporal",
+      
+        "axis": {"grid": false},
+        "title": ""
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "axis": {"grid": false},
+        "title": ""
+      }
+    }
+  }

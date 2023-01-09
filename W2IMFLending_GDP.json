@@ -1,0 +1,42 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+      "text": "IMF Lending Outstanding as percentage of the world GDP ",
+      "fontSize":11,
+      "subtitle":"credit outstanding to all memebers, source: IMF and World Bank",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+  
+  "data":{"url": "https://raw.githubusercontent.com/northmost2008/northmost2008.github.io/main/W2.csv"},
+
+  "config": {
+    "background":"#ffffff",
+    "view": {
+      "stroke": "#8f8181"}},
+  
+  "height": 260,
+  "width": 260,
+
+  "mark": {
+    "type": "bar",
+    "color": "#198cb3"},
+
+"encoding": {
+     "x": {
+       "field": "Year",
+       "type": "temporal",
+       "axis": {
+         "title": null,
+         "grid": false,
+         "ticks": false,
+         "labelAngle": 45}},
+
+      "y": {
+        "field": "Percentage_",
+        "type": "quantitative",
+        "title": "",
+        "axis": {"grid": true}}
+}
+}
