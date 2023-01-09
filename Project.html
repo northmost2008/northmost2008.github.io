@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+
+
+    <title>Project</title>
+
+  
+    <link rel="stylesheet" href="Project.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.6.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+</head>
+
+
+
+<body>
+    
+
+
+   
+    <div align="center" class="Project">
+        <h1>How the film industry has been affected by the Pandemic?</h1>
+
+        <a href="Home.html" id="homelink">Home</a>
+        <a href="portfolio.html" id="portfoliolink">Portfolio</a>
+        <a href="https://github.com/northmost2008/northmost2008.github.io" id="githublink">Github</a>
+        <hr />
+        <h2>Aim of the project</h2>
+        
+        <p>Although the Covid-19 is slowly fading away, the virus and the associated lockdown policies have changed people's lifestyles drastically over the last three years, possibly forever in some respects.</p>
+          <p>  Cinema, an industry deeply ingrained in society and entertainment that has almost become indispensable for people nowadays, was significantly influenced by the pandemic. The traditional movie theatres have suffered the heaviest losses as a result of the lockdown and capacity limit, and many were unable to reopen following the closure. Distributors and investors were forced to bear the losses resulting from the postponement of hundreds of films' production and release. Festivals and award ceremonies were either cancelled or held online. Meanwhile, streaming services sniffed out the business opportunities and benefitted from the pandemic.</p>
+           <p> The aim of this project is to investigate the changes in the film industry during the pandemic by looking at different indicators and then visualising these changes.
+            </p>
+            <hr />
+            <h3>1. Box Office</h3>
+<p>The first chart shows the change in annual gross box office from 2019 to 2022 in 95 countries on a world map (countries without data on box office are not displayed on the map), the data was collected from <a class="link" href="https://pro.imdb.com/boxoffice/intl?ref_=hm_nv_bo_international">IMDB Pro.</a></p>
+
+        <div class="p1" id="Chart1"></div>
+        
+        <p1></p1>
+     
+        <p>The following chart looks at the correlation between the log of box office and the log of Covid cases in 2020. We can see that there is a positive correlation between the changes in these two variables, which may suggest that reopening led to a higher frequency of social activities, causing the infection rate to rise. Therefore, it is reasonable to say that the increasing box office revenue is positively associated with increasing Covid cases.</p1>
+        <div class="p2" id="Chart2"></div>
+
+        <hr />
+        <h3>2. Streaming Services</h3>
+        <p>We have witnessed a boost in streaming services. This chart illustrates the stock price of five leading streaming service companies from 2020 to 2022. All the companies prices experienced a rise during late 2020 and early 2021, but they all gradually fell back to the pre-pandemic price level. Netflix has the largest price fluctuations. After reaching a historical high in October 2021, it started to plunge. The price volatility is associated with increased subscription fees and market competitiveness and might also relate to the public’s willingness to enjoy the cinema experience offline.</p>
+        <div class="p3" id="Chart3"></div>  
+   
+        <p>In the following chart, I tried to find whether an increase in Netflix subscription has any impact on the box office. I regressed the box office on the number of Netflix subscribers. The R-squared is only 0.56, which means the correlation is relatively weak. One of the reasons is that the number of subscribers is very disproportionally distributed. The majority of subscribers are located in developed countries, e.g., UK, France and Japan. Therefore, it is difficult to get a convincing result by regressing these two variables with a limited sample size.</p>
+
+            <div class="p4" id="Chart4"></div>
+
+        <hr />
+        <h3>3.Film Release</h3>
+        <p>The chart below shows the number of film releases each month in Northern America from 2019 to 2022. The film production and release were seriously disrupted when Covid-19 first hit. Only three films were released in April 2020, and still not yet recovered by 2022.</p>
+       <div class="p5" id="Chart5"></div>
+       <p>The second chart looks at 16 films for which their release date was delayed due to Covid-19. The bar chart demonstrates the difference between the original release date and the new (expected) release date. Delays in production and release will incur additional opportunity costs for the distributors.</p>
+       <div class="p6" id="Chart6"></div>
+
+       <hr />
+       <h2>Conclusion</h2>
+       <p>Overall, the global box office revenue was heavily damaged in 2020 and 2021, but many countries managed to recover and are expected to back to the pre-pandemic level in 2023 since most countries have removed their social distancing policies, same for the film production and release. Streaming services are still emerging despite experiencing stock price fallback in the short run. The size of the impact of streaming on the traditional film industry in the future is still questionable.</p>
+       <h2>Challenges</h2>
+       <p>IMDB Pro by Amazon Web Services (AWS) is the only official website which delivers the most accurate data regarding the international box office. I attempted to acquire the box office API from AWS, but they only offer a sub-section of IMDB data for academic use, which does not include any data on the box office. The IMDB Pro webpage for normal users neither display the yearly gross box office by country. However, I accidentally found that changing the URL suffix gives me yearly data and changing the country code allows me to access the data for each country, e.g., ‘https://www.boxofficemojo.com/year/?area=CN’ gives the Chinese yearly data. I then copied the data manually since IMDB website does not permit data scraping using Python.</p>
+</body>
+
+
+
+<script>
+   
+    var myChart1 = "P1_worldwideboxoffice.json";
+    var myChart2 = "P2_covidcasesboxoffice.json";
+    var myChart3 = "P3_streamingstocks.json";
+    var myChart4 = "P4_subscribers.json";
+    var myChart5 = "P5_releases.json"
+    var myChart6 = "P6_delayedrelease.json"
+ 
+  
+   
+
+
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+    
+</script>
+
+</html>

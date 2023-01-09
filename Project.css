@@ -1,0 +1,124 @@
+body{
+    background-image: linear-gradient(to bottom right, rgba(193, 8, 8, 0.775),rgba(11, 71, 235, 0.775), rgba(162, 162, 42, 0.775));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+ }
+
+
+
+
+h1{
+    color:rgba(255, 255, 255, 0.745);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+h2{
+    color:rgba(234, 181, 124, 0.842);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3{
+    color:rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+p{
+    color:rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+p1{
+    color:rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+
+.Project{
+    margin: auto;
+    max-width: 800px;
+    
+}
+
+
+
+
+
+.p1{
+    background-color: rgb(255, 255, 255);
+    width:auto;
+    height:auto;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(110, 97, 146);
+  }
+
+
+.p2{
+    background-color: white;
+    width:auto;
+    height: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(110, 97, 146);
+}
+
+
+
+.p3{
+    background-color: white;
+    width:auto;
+    height: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(110, 97, 146);
+}
+
+.p4{
+    background-color: white;
+    width:auto;
+    height: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(110, 97, 146);
+}
+
+
+
+.p5{
+    background-color: white;
+    width:auto;
+    height:auto;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(110, 97, 146);
+}
+
+.p6{
+    background-color: white;
+    width:auto;
+    height: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(110, 97, 146);
+}
+
+
